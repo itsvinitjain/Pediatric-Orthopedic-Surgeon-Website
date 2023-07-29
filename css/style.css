@@ -399,6 +399,30 @@ a:focus {
   transition: all 0.3s;
 }
 
+/*start*/
+.department_section .box .img-box-index {
+  width: 260px;
+  height: 260px;
+  margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.department_section .box .img-box-index img {
+  max-width: 260px;
+  max-height: 260px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/*end*/
+
 .department_section .box .detail-box h5 {
   font-weight: bold;
   text-transform: uppercase;
